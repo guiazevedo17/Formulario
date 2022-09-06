@@ -158,3 +158,26 @@ fieldset h2:first-of-type{
 select:last-of-type{
     margin-bottom: 20px;
 }
+
+label.visa, label.master{
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+label.master{
+    margin-left: 10%;
+}
+
+.endDate{
+    display: inline-flex;
+}
+
+.endDate select{
+    width: 15%;
+    margin-left: 25%;
+}
+
+.endDate select:last-of-type{
+    margin-left: -34%;
+}
