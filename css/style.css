@@ -19,7 +19,7 @@ form h1{
     padding-bottom: 10px;
 }
 
-input{
+input, select, textarea{
     display: block;
     margin: 10px auto;
     border: 0;
@@ -140,4 +140,21 @@ label.male{
 
 label.female{
     margin-left: 3%;
+}
+
+textarea{
+    width: 50%px;
+    height: 80px;
+}
+
+fieldset h2{
+    margin-top: 20px;
+}
+
+fieldset h2:first-of-type{
+    margin-top: 10px;
+}
+
+select:last-of-type{
+    margin-bottom: 20px;
 }

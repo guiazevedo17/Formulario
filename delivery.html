@@ -13,31 +13,44 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Profile Information</title>
+    <title>Delivery Adress</title>
 </head>
 
 <body>
     <form>
-        <h1>Profile Information</h1>
+        <h1>Delivery Adress</h1>
 
         <div class="fuel">
             <label for="name">First name</label>
-            <input type="text" id="name" placeholder="   Joseph">
+            <input type="text" id="name">
+
             <label for="lastName">Last name</label>
-            <input type="text" id="lastName" placeholder="   Tribiani">
+            <input type="text" id="lastName">
+
             <label for="phone">Phone</label>
             <input type="tel" id="phone" placeholder="   XX XXXXX - XXXX">
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="   seuemail@dominio.com">
 
             <fieldset>
-                <label for="male" class="male">Male <input type="radio" name="sex" id="male"></label>
-                <label for="female" class="female">Female <input type="radio" name="sex" id="female"></label>
+                <h2>Country</h2>
+                <select name="" id="">
+                    <option value="">Brazil</option>
+                    <option value="">USA</option>
+                    <option value="">Canada</option>
+                </select>
+
+                <h2>City</h2>
+                <select name="" id="">
+                    <option value="">Campinas</option>
+                    <option value="">New York</option>
+                    <option value="">Vancouver</option>
+                </select>
             </fieldset>
 
-            <h2>Date of birth</h2>
-            <input type="date">
-            
+            <label for="">Adress</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+            <label for="zipCode">Zipcode</label>
+            <input type="number" id="zipCode" placeholder="   XXXXX - XXX">
 
             <input type="submit" value="Save">
         </div>
