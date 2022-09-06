@@ -108,10 +108,36 @@ button, input[type="submit"]:hover, .help{
     text-align: left;
 }
 
-.fuel label{
+.fuel label, h2{
     margin-left: 26%;
+}
+
+h2{
+    margin-top: 15px;
 }
 
 h4{
     margin: 20px 0;
+}
+
+input[type="radio"]{
+    margin: 0;
+    width: 10px;
+    margin-left: 5px; 
+    
+}
+
+label.male ,label.female{
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 0;
+}
+
+label.male{
+    margin-left: 35%;
+}
+
+label.female{
+    margin-left: 3%;
 }

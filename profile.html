@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Profile Information</title>
+</head>
+
+<body>
+    <form>
+        <h1>Profile Information</h1>
+
+        <div class="fuel">
+            <label for="name">First name</label>
+            <input type="text" id="name" placeholder="   Joseph">
+            <label for="lastName">Last name</label>
+            <input type="text" id="lastName" placeholder="   Tribiani">
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" placeholder="   XX XXXXX - XXXX">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="   seuemail@dominio.com">
+
+            <fieldset>
+                <label for="male" class="male">Male <input type="radio" name="sex" id="male"></label>
+                <label for="female" class="female">Female <input type="radio" name="sex" id="female"></label>
+            </fieldset>
+
+            <h2>Date of birth</h2>
+            <input type="date">
+            
+
+            <input type="submit" value="Save">
+        </div>
+
+        <p>or connect with</p>
+        <button id="linkedin"><img src="images/linkedin.png" alt=""></button>
+        <button id="github"><img src="images/github.png" alt=""></button>
+    </form>
+</body>
+
+</html>
