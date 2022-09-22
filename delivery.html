@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <form>
+    <div class="form">
         <h1>Delivery Adress</h1>
 
         <div class="fuel">
@@ -52,13 +52,15 @@
             <label for="zipCode">Zipcode</label>
             <input type="number" id="zipCode" placeholder="   XXXXX - XXX">
 
-            <input type="submit" value="Save">
+            <input type="submit" value="Save" onclick="goPayment()">
         </div>
 
         <p>or connect with</p>
         <button id="linkedin"><img src="images/linkedin.png" alt=""></button>
         <button id="github"><img src="images/github.png" alt=""></button>
-    </form>
+    </div>
+
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 
 </html>
